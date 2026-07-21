@@ -11,17 +11,27 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "assets/page-CHOMkFHg.js",
+    "file": "assets/page-DAd1ZAmX.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "lib/vendor/liquidglass.js"
     ]
   },
+  "lib/vendor/liquidglass.js": {
+    "file": "assets/liquidglass-D7-5YRol.js",
+    "name": "liquidglass",
+    "src": "lib/vendor/liquidglass.js",
+    "isDynamicEntry": true
+  },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-pRIfGL7x.js",
+    "file": "assets/layout-segment-context-DlEFujYc.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -32,7 +42,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-Dsi_tZ3e.js",
+    "file": "assets/index-CNqshnz6.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
